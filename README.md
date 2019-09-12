@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Recommenders Engine Example Layout (REEL) is a cross-platform movie recommendation application that demonstrates the integration of example recommendation algorithms from Microsoft/Recommenders into an application workflow. The following sections will demonstrate how to locally build REEL. These sections will guide the reader into:
+Recommenders Engine Example Layout (REEL) is a cross-platform movie recommendation application that demonstrates the integration of example recommendation algorithms from [Microsoft/Recommenders](https://github.com/microsoft/recommenders) into an application workflow. The following sections will demonstrate how to locally build REEL. These sections will guide the reader into:
 	
 * Creating an ML model endpoint
 * Setting up and populating [Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/)
@@ -10,7 +10,7 @@ Recommenders Engine Example Layout (REEL) is a cross-platform movie recommendati
 * Running the app's backend on Azure using [AKS](https://docs.microsoft.com/en-us/azure/aks/)
 * Installing the [Xamarin.Forms](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/) app for the mobile client
 	
-Currently, REEL runs *Simple Algorithm for Recommendation (SAR)* and *LightGBM algorithms*. The application is built using [Xamarin.Forms](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/),
+Currently, REEL runs [*Simple Algorithm for Recommendation (SAR)*](https://github.com/microsoft/recommenders/blob/master/notebooks/02_model/sar_deep_dive.ipynb) and [*LightGBM algorithms*](https://github.com/microsoft/recommenders/blob/master/notebooks/00_quick_start/lightgbm_tinycriteo.ipynb). The application is built using [Xamarin.Forms](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/),
  so it is supported on **iOS**, **Android** and **[Windows Desktop](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide)**. The algorithms are trained on the [MovieLens dataset](https://grouplens.org/datasets/movielens/).
 
 
