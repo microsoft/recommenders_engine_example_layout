@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendersDemo.UWP", "RecommendersDemo\RecommendersDemo.UWP\RecommendersDemo.UWP.csproj", "{A660221D-999D-45CF-9082-6F92DCB8446F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendersDemo.Android", "RecommendersDemo\RecommendersDemo.Android\RecommendersDemo.Android.csproj", "{2DF72AA2-ED21-407A-861E-2424B5026CC7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendersDemo.iOS", "RecommendersDemo\RecommendersDemo.iOS\RecommendersDemo.iOS.csproj", "{359BA66F-BB62-4C75-9B93-70772734F3D3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecommendersDemo", "RecommendersDemo\RecommendersDemo\RecommendersDemo.csproj", "{5BD80797-7721-4DD0-8176-4B4544AC1268}"
